@@ -1,7 +1,82 @@
-h1 {
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: floralwhite;
+    background-color: #fff6e8;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+p {
+    font-family: 'Muli';
+}
+
+.main {
+    max-width: 1000 px;
+    margin: auto;
+    margin-left: 100px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+h1 {
+    text-align: center;
+    word-break: break-all;
+    color: #2a2f36;
+    font-family: 'Julius Sans One';
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Vollkorn';
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    padding: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #afb394;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #244f82;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #2a2f36;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
