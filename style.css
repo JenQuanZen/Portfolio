@@ -30,15 +30,14 @@ h1 {
 }
 
 h3 {
-    font-family: 'Vollkorn';
-    font-weight: bold;
-    font-style: italic;
-    font-size: 24px;
+    font-family: 'Libre Baskerville';
+    font-weight: normal;
+    font-size: 22px;
     color: #2a2f36;
-    text-shadow: -0.2px 0.2px 0 #fff6e8,
-                    0.2px 0.2px 0 #fff6e8,
-                    0.2px -0.2px 0 #fff6e8,
-                    -0.2px -0.2px 0 #fff6e8;
+    text-shadow: -0.1px 0.1px 0 #fff6e8,
+                    0.1px 0.1px 0 #fff6e8,
+                    0.1px -0.1px 0 #fff6e8,
+                    -0.1px -0.1px 0 #fff6e8;
     
 }
 
