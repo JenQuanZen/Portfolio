@@ -10,6 +10,9 @@ body {
 
 p {
     font-family: 'Muli';
+    font-size: 16px;
+    font-weight:inherit;
+    letter-spacing: 1px;
 }
 
 .main {
