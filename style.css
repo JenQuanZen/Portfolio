@@ -33,6 +33,7 @@ h1 {
     letter-spacing: 8px;
 }
 
+
 h3 {
     font-family: 'Libre Baskerville';
     font-weight: lighter;
@@ -99,20 +100,23 @@ a:visited {
 
 .sidenav {
   height: 100%;
-  width: 100px;
+  width: 110px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #afb394;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 120px;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
+  padding: 4px 4px 20px 10px;
+  font-family: 'Muli'; 
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 20px;
   color: #244f82;
   display: block;
 }
