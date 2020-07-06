@@ -60,6 +60,12 @@ a:visited {
     padding: 12px;
 }
 
+.columnSmall {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
 .row:after {
     content: "";
     display: table;
